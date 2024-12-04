@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+div {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    margin: 44px 76px;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #989D9C;
+    margin: 23px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link-header:hover {
+    color: #515151;
+    transition: all 0.3s ease;
+}
+
+.button-header {
+    width: 130px;
+    height: 41px;
+    border-radius: 20.5px;
+    border: none;
+    background: #665AE1;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.26px;
+    margin-bottom: 38px 138px;
+    cursor: pointer;
+}
+
+.button-header:hover {
+    color: #515151;
+    transition: all 0.3s ease;
+}
+
+img {
+    display: inline-block;
+    margin: 144px 86px 0 125px;
+}
+
+main {
+    display: inline-block;
+    margin: 0 86px 0 0;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 121.9px;
+    color: #515151;
+    width: 513px;
+    height: 122px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 70.7px;
+    color: #515151;
+    width: 448px;
+    height: 71px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #848484;
+    width: 515px;
+    height: 87px;
+}
+
+.button-main {
+    width: 239px;
+    height: 64px;
+    border-radius: 50px;
+    border: none;
+    background: #ADFF00;
+    box-shadow: 0 4px 4px 0 #00000040;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34.13px;
+    color: #000000;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+.button-main:hover {
+    color: #515151;
+    transition: all 0.2s ease;
+}
+
+@media screen and (max-width:900px) {
+    main {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 50%;
+    }
+
+    img {
+        position: static;
+        width: 354px;
+        height: 317px;
+        margin-left: 77px;
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 60.95px;
+        width: 263px;
+        height: 52px;
+        text-align: center;
+        margin: 9px 0 15px 130px;
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 36.57px;
+        color: #515151;
+        text-align: center;
+        width: 232px;
+        height: 37px;
+        margin: 15px 0 15px 149px;
+    }
+
+    p {
+        display: none;
+    }
+
+    .button-main {
+        margin: 15px 0 133px 145px;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34.11px;
+        text-align: center;
+        width: 239px;
+        height: 64px;
+    }
+}
